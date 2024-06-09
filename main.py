@@ -40,7 +40,7 @@ class AllSprites(pygame.sprite.Group):
 class Game:
     def __init__(self):
         pygame.init()
-        f=open('settings.json')
+        f=open('/Users/lengocbinh/Documents/2023.2/Intro to SE/SE_project_contra_game/settings.json')
         self.settings=json.load(f)
         del f
         self.display_surface=pygame.display.set_mode((self.settings['window_width'],self.settings['window_height']))
