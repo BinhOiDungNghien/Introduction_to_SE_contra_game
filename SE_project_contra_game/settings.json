@@ -1,0 +1,11 @@
+{
+    "window_width":1280,
+    "window_height":720,
+    "layers":{
+        "BG":0,
+        "BG Detail":1,
+        "Level":2,
+        "FG Detail Bottom":3,
+        "FG Detail Top":4
+    }
+}
